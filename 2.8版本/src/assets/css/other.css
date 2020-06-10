@@ -1,0 +1,36 @@
+#ivu-modal-content .ivu-modal-content{
+  background-color: transparent;
+  box-shadow:0 0 0 black;
+  font-size: 50px;
+}
+
+/*Administrator页面*/
+.creatmodel input{
+  width: 150px;
+}
+.creatmodel .wt200 input{
+  width: 200px;
+}
+/*AcessPolicy组件页面*/
+.AP_Row .ivu-form-item-error-tip{
+  top: 50px!important;
+}
+/*删除确认弹出框*/
+.sc_sure .ivu-modal-wrap .ivu-modal{
+  margin-top: 15%;
+}
+/*model彈出框*/
+.qs /deep/.ivu-modal-header{
+  border-bottom: 1px solid #e8eaec!important;
+}
+.qs /deep/.ivu-modal-footer{
+  border-top: 1px solid #e8eaec!important;
+}
+/*页面内容高度*/
+.mix-page.list-page{
+  background-color: #fff;
+  height: 97.5%;
+  min-height: 71rem;
+  padding: 0 16px;
+  margin: 10px;
+}

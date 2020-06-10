@@ -1,0 +1,9 @@
+名称：admin
+密码：fawlkj123
+
+注意，登录调接口
+/ 调用api接口,加true走本地，不加走接口
+            // that.Api.postLogin(that.formCustom, true).then(res => {
+            that.Api.postLogin(that.formCustom).then(res => {
+
+服务器没开，都打开不了
